@@ -1,0 +1,862 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+body {
+	background-image: url(https://i.gifer.com/J4o.gif);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adv {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title-text {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.slot {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.slot .slot-sidebar {
+    float: left;
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-right: 10px;
+    padding-left: 0;
+    margin-top: 5px;
+    background-color: #1a4d91;
+}
+
+.slot-sidebar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.slot-sidebar-nav > li {
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.slot-sidebar-nav > li > a {
+    color: #fff;
+    font-size: 13px;
+    padding: 7px 10px;
+    display: block;
+}
+
+.btn-provider i {
+    margin-right: 5px;
+}
+
+.enter {
+    display: none;
+}
+
+.btn-provider span {
+    position: absolute;
+    transform: translateY(10px);
+}
+
+.pragma-logo {
+    background-image: url(../assets/Pragmaticplay.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.haba-logo {
+    background-image: url(https://i.postimg.cc/Qdv6QYqM/image-removebg-preview-2.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.idn-logo {
+    background-image: url(https://i.postimg.cc/rFbPVm7b/image-removebg-preview-8.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.cq9-logo {
+    background-image: url(https://www.omni88.com/img/works_cq9_logo.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.pg-logo {
+    background-image: url(https://jili.io/wp-content/uploads/2023/08/Logo-Jili.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.micro-logo {
+    background-image: url(https://www.gamingsoft.com/Content/v2/images/new-provider/the-online-casino-product-from-Live22-Fishing-Games-gamingsoft.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.isb-logo {
+    background-image: url(https://www.gamingsoft.com/Content/v2/images/new-provider/the-popular-slot-games-from-acewin-gamingsoft.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.ps-logo {
+    background-image: url(https://media.muckrack.com/profile/images/11653570/8f3662de067df3a28a6a93767.png.256x256_q100_crop-smart.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.ttg-logo {
+    background-image: url(https://www.larotayo7.com/wp-content/uploads/2023/03/JDB-Gaming.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.sg-logo {
+    background-image: url(https://fcslot.ph/wp-content/uploads/2023/04/FC-logo-icon.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.rt-logo {
+    background-image: url(../assets/spadegaming.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.rtg-logo {
+    background-image: url(https://media1.thehungryjpeg.com/thumbs2/ori_3754144_gg11cr3nyq5mo1c3b5bna04q2p1rz4x38s4cxp8q_pegasus-esport-mascot-logo.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.sp-logo {
+    background-image: url(https://www.gamingsoft.com/Content/images/common/logo-dragonsoft.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.gmp-logo {
+    background-image: url(https://asetnegara.site/img/images/slotmania-logo.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.net-logo {
+    background-image: url(https://www.marioclub88.org/images/login/logo.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+.mno-logo {
+    background-image: url(https://159.89.194.186/wp-content/uploads/2023/03/nextspin-1.png);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 32px;
+    background-size: 20px;
+}
+
+.slot .content {
+    float: right;
+    width: 80%;
+    padding: 0;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.card {
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    background: transparent;
+    border: none;
+    text-align: center;
+    position: relative;
+}
+
+.card-content {
+    background: #0092b1;
+    margin: 5px;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.percent {
+    height: 27px;
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    /* border-radius: .25rem; */
+    position: relative;
+    z-index: 1;
+}
+
+.percent p {
+    z-index: 15;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    transform: translateY(14px);
+    color: black;
+}
+
+.percent-bar {
+    /* background-color: #ffc107; */
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    /* background-color: #007bff; */
+    transition: width 0.6s ease;
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+    /* animation: ; */
+    z-index: 10;
+}
+
+.yellow {
+    background-color: #ffc107;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.hover-btn {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: all 0.45s ease-in-out;
+    z-index: 10;
+    width: 100%;
+}
+
+.play-btn {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 25% auto;
+    padding: 8px;
+    background-color: #15b586;
+}
+
+.img-zoom {
+    transition: all 0.45s ease-in-out;
+    height: 141px;
+}
+
+.hover-btn:hover {
+    opacity: 100%;
+}
+
+.hover-btn:hover ~ .img-zoom {
+    transform: scale(1.2);
+    position: relative;
+}
+
+.next-btn {
+    display: none;
+    width: 30%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.next-btn {
+    background-color: #292a2b;
+    border: none;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .slot-sidebar-nav {
+        flex-wrap: nowrap;
+    }
+    .slot-sidebar {
+        float: none !important;
+        width: 100% !important;
+        flex: none !important;
+        max-width: 100% !important;
+        padding-right: 0 !important;
+    }
+    .content {
+        float: none !important;
+        width: 100% !important;
+        flex: none !important;
+        max-width: 100% !important;
+    }
+    .card {
+        width: 33.3% !important;
+    }
+    .hover-btn:hover {
+        opacity: 0;
+    }
+
+    .hover-btn:hover ~ .img-zoom {
+        transform: scale(1);
+        position: relative;
+    }
+
+    .btn-provider {
+        text-align: center;
+        display: block;
+    }
+    .slot-sidebar-nav > li > a {
+        height: 70px;
+    }
+    .enter {
+        display: block;
+    }
+    .btn-provider span {
+        position: unset;
+    }
+    .btn-provider i {
+        margin: 0;
+    }
+    .slot-sidebar-nav li {
+        border-left: 0.2px solid #656565;
+        border-right: 0.2px solid #656565;
+        border-bottom: none;
+    }
+    .img-zoom {
+        height: auto;
+    }
+    .next-btn {
+        display: block;
+    }
+    .res-bar {
+        display: none;
+    }
+}
+
+
+/* popup style*/
+.popup-container{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    background: #080808b0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.popup-body{
+    width: 347px;
+    height: 600px;
+    margin: 2% auto;
+    background: #313131;
+    border-radius: 0px;
+    color: white;
+}
+
+@media (max-width: 512px){
+    .popup-body{
+        width: 310px;
+        margin: 10% auto;
+    }
+}
+
+.popup-img{
+    width: 450px;
+    height: 555px;
+    margin: 8% auto;
+}
+
+.popup-img-close{
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: white;
+    color: black;
+    float: right;
+    padding: 5px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -20px
+}
+
+@media (min-width: 993px){
+    .popup-img-close{
+        margin-left: 42px;
+        margin-top: -12px;
+    }
+}
+
+.popup-header{
+    height: 48px;
+    width: 100%;
+    background: #3f93b1;
+    float: left;
+}
+
+.popup-header h6{
+    margin: 13px;
+}
+
+.popup-content{
+    width: 100%;
+    height: auto;
+    padding: 15px 39px;
+    float: left;
+    font-size: 14px;
+}
+
+.col2{
+    width: 50%;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.mrtop10{
+    margin-top: 10px;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    background: #5e5e5e;
+    float: left;
+}
+
+.popup-label{
+    width: 100%;
+    float: left;
+    background: #222222;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.popup-close{
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: white;
+    color: black;
+    float: right;
+    padding: 5px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -9px;
+}
+
+.bg-blue-button{
+    background: #3f93b1;
+}
+
+.bg-black-button{
+    background: #535353;
+}
+
+.popip-button{
+    cursor: pointer;
+    width: 50%;
+    float: left;
+    height: 40px;
+}
+
+.popip-button:hover{
+    background: #3f93b1;
+}
+
+
+
+/* Slideshow container */
+.slideshow-images-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 6px;
+}
+
+/* Hide the images by default */
+.slideshow-images {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev-slideshow-images, .next-slideshow-images {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -14px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-slideshow-images {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-slideshow-images:hover, .next-slideshow-images:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text-slideshow-images {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext-slideshow-images {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+/* The dots/bullets/indicators */
+.dot-slideshow-images {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-slideshow-images, .dot-slideshow-images:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade-slideshow-images {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (min-width: 993px){
+    .numbertext-slideshow-images {
+        top: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .popup-img{
+        max-width: 93%;
+        margin: 25% auto;
+    }
+}
+
+
+.header{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 6px;
+    background: #023144 ;
+    position:fixed ;
+    z-index: 300;
+}
+
+.images-logo{
+    padding: 0px;
+    width: 190px;
+    height: 60px;
+    float: left;
+}
+
+.header .title{
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    border-radius: 42px;
+}
+
+.red{
+    background: #c73000;
+}
+
+.blue{
+    background: #3f93b1;
+}
+
+.header-buttom{
+    color: white;
+    padding: 5px;
+    height: 42px;
+}
+
+.header-button-text{
+    font-size: 14px;
+    margin: 7px;
+    float: left;
+}
+
+.popup-container-ads{
+    background: url(../i.ibb.co/7z8ztNS/popup.html);
+    background-repeat: no-repeat;
+    margin: 10% auto;
+    border-radius: 18px;
+    background-size: 100%;
+    width: 350px ;
+    height: 700px ;
+}
+
+@media (max-width: 992px){
+    .header .title {
+        display: none;
+    }
+
+    .col{
+        flex-basis: auto;
+    }
+
+    .header-button-text{
+        font-size: 12px;
+        margin: 9px;
+    }
+}
+
+
+/* Menu Navigation Buttom */
+.menu-bottom{
+    display: none;
+    height: 63px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    border-top: 2px solid #707070;
+}
+
+.sub-menu-bottom{
+    width: 25vw;
+    height: 100%;
+    float: left;
+}
+
+.sub-menu-bottom:hover{
+    background: #525252;
+}
+
+.icon-menu{
+    width: 4vw;
+    height: auto;
+    margin: 8px;
+}
+
+.text-menu{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+@media (max-width: 992px){
+    .menu-bottom{
+        display: block;
+    }
+}
+
+@media (min-width: 768px){
+    .menu-bottom{
+        height: 82px;
+    }
+}
